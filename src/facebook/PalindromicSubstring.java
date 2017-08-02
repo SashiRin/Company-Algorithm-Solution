@@ -44,6 +44,7 @@ public class PalindromicSubstring {
     }
 
     public static int numberOfPalindrome(String s) {
+
         if (s == null || s.length() == 0) {
             return 0;
         }
