@@ -1,0 +1,13 @@
+SELECT
+    Id,
+    CASE
+        WHEN M IS NULL THEN 'Leaf'
+        WHEN P_id IS NULL THEN 'Root'
+        ELSE 'Inner'
+    END AS TypeNode
+FROM(
+    SELECT
+        DISTINCT hijo.*, padre.P_id as M
+    FROM Tree hijo
+    LEFT JOIN Tree padre ON(hijo.Id = padre.P_id)
+)ORDER BY Id;

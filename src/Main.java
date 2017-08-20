@@ -1,44 +1,79 @@
+
+
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Main {
+    static int res = 0;
 
-    /**
-     * 1. Two Sum
-     Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+    public static int find(String s, String keypad) {
 
-     You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-     Given nums = [2, 7, 11, 15], target = 9,
+        int[][] board = new int[3][3];
+        int k = 0;
+        HashMap<String, Integer> map = new HashMap<>();
 
-     Because nums[0] + nums[1] = 2 + 7 = 9,
-     return [0, 1].
-
-     * @param nums
-     * @param target
-     * @return
-     */
-
-    public static int[] twoSum(int[] nums, int target) {
-
-        if (nums == null || nums.length < 2) {
-            return new int[]{-1, -1};
-        }
-
-        int[] res = new int[]{-1, -1};
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for(int i = 0; i < nums.length; i++) {
-            if (map.containsKey(target - nums[i])) {
-                res[0] = map.get(target - nums[i]);
-                res[1] = i;
-                break;
+        for (int i = 0; i < board.length; i++) {  //build int[][]
+            for (int j = 0; j < board[0].length; j++) {
+                board[i][j] = keypad.charAt(k++) - '0';
             }
-            map.put(nums[i], i);
+            System.out.println(Arrays.toString(board[i]));
         }
 
-        return res;
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[0].length; j++) {
+                if (s.charAt(0) - '0' == board[i][j]) {
+                    dfs (s, board, i, j, 0, map, 0, 2);
+                }
+            }
+        }
+
+        return map.get(s);
     }
+    public static void dfs(String s, int[][] board, int i, int j, int cur, HashMap<String, Integer> map, int step, int max) {
+        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length) return;
+        if (cur == s.length() || max < 0) return;
+
+        int c = board[i][j];
+        if (c == s.charAt(cur) - '0') {
+            if (cur < s.length() - 1 && c == s.charAt(cur + 1) - '0') {
+                cur++;
+                map.put(s.substring(0, cur + 1), step);
+            }
+            if (!map.containsKey(s.substring(0, cur + 1))) {
+                map.put(s.substring(0, cur + 1), step);
+            } else {
+                map.put(s.substring(0, cur + 1), Math.min(step, map.get(s.substring(0, cur + 1))));
+            }
+            max--;
+            dfs(s, board,i - 1, j, cur + 1, map, step + 1, max);
+            dfs(s, board,i + 1, j, cur + 1, map, step + 1, max);
+            dfs(s, board, i, j - 1,cur + 1, map, step + 1, max);
+            dfs(s, board, i, j + 1,cur + 1, map, step + 1, max);
+            dfs(s, board,i - 1, j - 1,cur + 1, map, step + 1, max);
+            dfs(s, board,i + 1, j + 1,cur + 1, map, step + 1, max);
+            dfs(s, board,i - 1, j + 1,cur + 1, map, step + 1, max);
+            dfs(s, board,i + 1, j - 1,cur + 1, map, step + 1, max);
+            max++;
+        } else {
+            max--;
+            dfs(s, board,i - 1, j, cur + 1, map, step + 1, max);
+            dfs(s, board,i + 1, j, cur + 1, map, step + 1, max);
+            dfs(s, board, i, j - 1,cur + 1, map, step + 1, max);
+            dfs(s, board, i, j + 1,cur + 1, map, step + 1, max);
+            dfs(s, board,i - 1, j - 1,cur + 1, map, step + 1, max);
+            dfs(s, board,i + 1, j + 1,cur + 1, map, step + 1, max);
+            dfs(s, board,i - 1, j + 1,cur + 1, map, step + 1, max);
+            dfs(s, board,i + 1, j - 1,cur + 1, map, step + 1, max);
+            max++;
+        }
+    }
+
 
     public static void main(String[] args) {
 
+        String s = "4729";
+        String keypad = "923857614";
+        System.out.println(find(s, keypad));
     }
 }
