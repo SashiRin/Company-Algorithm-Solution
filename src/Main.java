@@ -2,8 +2,10 @@
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class Main {
+
     static int res = 0;
 
     public static int find(String s, String keypad) {
@@ -70,10 +72,11 @@ public class Main {
     }
 
 
+
+
     public static void main(String[] args) {
 
-        String s = "4729";
+        String s = "4";
         String keypad = "923857614";
-        System.out.println(find(s, keypad));
     }
 }
