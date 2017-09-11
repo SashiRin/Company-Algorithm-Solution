@@ -1,0 +1,35 @@
+html 琐碎问题
+
+www.google.com (send get request, DNS, load balancer, server, find static file or go into MVC and database interactions, send back result)
+
+
+等待贴上去：
+351. Android Unlock Patterns
+find median of two sorted array
+检查一个graph是不是bipartite
+wordbreak 2 (follow up : NLP problems
+给一个节点，打印出树的graph   http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=290666&pid=3148308&page=1&extra=#pid3148308
+68. Text Justification
+max rectangle 输出其坐标  一个变化是要求最后返回一个maximal rectangle的identifier。这个面试官说的很模糊，只要返回的东西能准确定位到这个最大矩形即可。
+完全背包， 刚开始理解成了01背包，后来发现他想要完全背包
+find local minimum in an array given A[0]>A[1] && A[n]>A[n-1]
+https://www.careercup.com/question?id=6297234405588992
+
+
+onsite :
+Design instagram
+Design Twitter
+设计一个topic ranking 系统
+Design calendar
+设计一个distributed key value store
+Design tiny url（跳槽店面）
+设计题，系统向后台写record，统计过去24小时的records中内出现次数前五的词。（跳槽店面）
+follow up是如果我在写日志的时候，为了减少每条日志的大小，不写timestamp，怎么获得同样的答案，可以有误差。就是把进来的records按时间放到不同的file里，譬如说每10分钟写到一个file里，然后再统计24小时内的files的词频
+设计题，要求返回twitter在过去24小时里最popular的10个单词（任何string），问的非常详细
+设计github.  画出server端architecture.问了每部分的功能和常用实现框架. DB的选取, table design+SQL, index优化
+Java Design Pattern: Iterator
+
+Design Excel. Implement (leetcode)
+int get(string cell)
+void put(string cell, string expr). expr can be "A1= B1+1".
+这题的关键在于，要解决各个cell的dependence问题. 比如说call put(B1, "3")之后，同时也要update A1的值。会牵扯到topo sort的问题。总之这题是design题，就看你有没有意识到这种dependence。

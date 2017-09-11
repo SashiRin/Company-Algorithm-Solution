@@ -1,0 +1,135 @@
+1. process和thread的区别
+2. 进程的内存空间里stack和heap的区别
+3. UDP和TCP的区别
+coding是两道，分别是lc 126和140，都是热门题，没啥好说的，就是好久没写了有点卡……leetcode还是得刷熟练啊。
+1. 给数组 求平均数
+2. 给数组 求  和是 3的倍数的所有可能的子列（连续） 总数
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=156435&highlight=wepay
+www.google.com发生了什么，希望把熟悉的部分讲多一点。两道题，判断字符串是不是相同和里扣53。
+lc 186
+2. 给一个二叉树和其中一个节点，要求返回从root到这个节点的双向链表。一开始我说可以先把路径存在一个list里然后生成链表，面试官要求不用这种做法（不能用额外的数据结构存节点）
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=291246&highlight=wepay
+判断两个tree 是否对称,. Waral 鍗氬鏈夋洿澶氭枃绔�,
+判断图是否二分图
+1. 给定一个通讯录。在搜索栏中输入几个字母，就可以的到所有以这几个字母开头的联系人列表。问用什么数据结构保存通讯录。
+2. 给一个map，map是英文名字和对应的昵称。写一个函数，把一个句子（String）中在map中出现过的名字替换成对应的昵称。
+3. 问在通讯软件中，一个用户向另一个用户发消息，是怎么实现的
+题目就是Validate Sudok。
+第一次把check row, check column, check block分开写的。
+后来要求写在一个循环里，说他们做validate credit card的时候就是这么去优化代码的。
+给你个String怎么判断是不是纯数字；
+随后变种为包含负数怎么办；
+再变种为两个数字间有符号怎么办。
+1. double sqrt（double input）. 涓€浜�-涓夊垎-鍦帮紝鐙鍙戝竷
+2. 电梯design。
+3. nested iterator（leetcode原题）
+reconstruct binary search tree from sorted array，level order traversal， Evaluate Reverse Polish Notation.
+让我用dfs在页面里找一个特定id的element，提供给我的方法是getElementByTag
+第四题，给我一个String，里面带有人名，让我把这个人名替换为他的nick name其它保持原状，string 中可以有多个空格多个符号什么的。
+max subarray sum和lowest common ancestor
+deep iterator。。大概就是给你[1,[2],[3,[4,[5]]]]，设计一个iterator，每次next返回的结果是1,2,3,4,5。貌似是个linkedin的题，用个interator的stack就行。然后又问了怎么判断一个图是不是二分图和写一个sqrt(double x)的函数(x >= 0)。
+OS里堆栈的区别，mutex和semephore的区别（第三次被问到了），tcp/udp区别，raid 0123456是什么之类的。 算法题让写递归非递归的菲波那切数列，写了个按层遍历，好像还写了个求子数组的最大和的DP
+validate suduko，第一次做这个写了最暴力的他不满意，后来用一组hashset优化下，一共只遍历一次数独，他就说可以了。
+3sum, LeetCode 原题
+第二题： 将一棵树全部的leaf node 连成double linked list
+153. Find Minimum in Rotated Sorted Array
+给一个char的字符串，找出里面不重复的字符
+spiral matrix
+Basic Calculator + Merge Two Sorted Lists
+TCP VS UDP, Thread vs Process,  Semephore vs Mutex invert BT
+*Implement a Data structure to store data like [1, 2, [3, [4], 5], 6] 鏉ユ簮涓€浜�.涓夊垎鍦拌鍧�.
+           * Write a Iterator( hasNext(),  next() ).
+1)given a string, determine if the string is a valid phone number or not
+2)validate an email address
+3)given a string of a valid email, make a function that corrects the email address by its domain
+第一题求整数数组的平均值，注意下overflow 以及数据量很大时怎么办
+2，word break ii, 问复杂度
+reverse linkedlist，shorten url，在rotate 的array里search一个数，leetcode里一个我忘了叫啥了就是 给个array return 一个array 值是除了这个数其他数的乘积
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=145907&highlight=wepay
+Leetcode Evaluate Reverse Polish Notation 的变体，非Reverse的Polish Notation，而且输入是一整个string。
+给的例子是 (+ (* 2 3) (/ (+ 4 5) 3)) returns 9
+观察例子可以看到括号都会和数字或者运算符在一个token里，然后不同的token被空格隔开，运算符和数字一定不在一个token里。
+NQueen  preorder reverse linked list Max subarray 只是subarray size必须大于2
+给个graph，实现 findMinDist(int src, int des) BFS做出
+Follow up: 在linkedin, distance为3以上的connection忽略，函数return -1，怎么优化？
+Merge Two Sorted Arrays
+3. isAnagram: 先写了一个开个ascii码长的数组，然后他又问我可以减小空间么，然后他说，就是用个hashmap，然后又写了一遍. 鐗涗汉浜戦泦,涓€浜╀笁鍒嗗湴
+3. palindrome: 找出所有的substring是palindrome，返回一个有多少个distinct的，我知道应该用dp，兰儿时间来不及了，我就直接简单粗暴brute force了。。。所以最后两个test case没过，感觉是大数据吧～
+2. Merge two sorted array
+3. Check whether two strings is anagram
+4. Return the number of distinct palindromic substrings for a given string.
+括号匹配和3 Sum
+括号匹配提了一下如果有几千种括号需要匹配，怎么优化，算是设计模式？ 然后分析了时间复杂度是否会因为符号增多而增加. 鐣欏鐢宠璁哄潧-涓€浜╀笁鍒嗗湴
+把判断符号的方法独立出来，减少依赖
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=133130&highlight=wepay
+Write a library that given a url, finds all email addresses on that url.
+ex input: "http://www.ehtp.org/contact-us", output: ["info@ehtp.org"]  http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=141445&highlight=wepay
+
+
+
+
+
+
+onsite:
+1 meetbo.com
+talk about if you want to design a website like meetbo
+replace input string
+2 implement deep interator:
+so give you [2,3,[4,[[6],7]],3] will also be iterator;
+implement hashtable
+3 lunch, talk about snowboarding
+4 implement a website like https://bitly.com/
+how would you design, how to store, how to scale;. visit 1point3acres.com for more.
+given a array, find subarray which has most sum, but diff from lc is that subarray.size() >= 2
+no time for followup: ( if input is stream, how do solve, time efficient of course)
+5 lc problem: phone number
+lc problem: reverse a linked list
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=140414&highlight=wepay
+
+2. 老印，ebay过来的做director of engineering。让我描述访问www.cnn.com之后的过程，包括数据库和3rd-party api。然后问如果一个client每次访问都要很久才能加载，有哪些可能的原因，列举5-10条。问完之后又问了一些我原来做过的machine learning的东西。看我原来在ebay实习过问我当时老板是谁，说完之后又说啊哈我们也认识啊blabla的。＝ ＝
+聊了一会儿天又开始问问题。。。一个word list，设计一个get_next(word)，返回在word list里word的字典序的下一个，注意的是word并不一定本身在word list里。我先假设的word存在list，然后说了个hash map的方法。他说那如果不存在呢？我说那二分？他说但是复杂度是logn了，我还是要常数复杂度。。想了一会儿没想出来，他就提示了一下算hash function的时候是不是每个letter都要考虑呀，所以你有没有什么想法？LZ灵光一现就想到用个prefix trie就好了，大概说了一下解法就OK。
+然后又开始问语言细节。。java的内存管理，gc什么的，lz真的不懂就只能瞎掰。。有问了python的list comprehension是什么，yield怎么用blabla。感觉问的太详细。。。
+3. 感觉是个华裔，问的是个最难的题。。大意是有个string，比如说  util.exe -file   abc -s [abc dd]]]   "efg    []""]z"之类的，让tokenize这个string得到一个string的list，分别是util.exe, -file, abc, -s, abc dd], efg    []"]z。超级复杂的一个问题。。每个token用一个或者多个空格分开，每个token可以使用[]或者""来quote，这样token内部就可以有空格。但是，比如使用[]的话，token内部的]会有问题，所以需要转义]，然而转义的方法不是\]，而是用两个]来转义，也就是说]]表示一个]而不是closing bracket... 引号的转义也是类似。。。听到这里lz就已经快留下泪水了，并且加上昨天面的palantir已经连续面到7轮了。。做的过程中面试官一直在旁边笑着说你要是不会我可以提醒你哦。。我真是。。最后理解错题意做的太复杂，就问了提醒，然后面试官说哈哈哈我们可以用state machine。。。我只能说给您老人家跪下了。。。最后磕磕绊绊算是解决了吧。。
+4. 超好的亚裔小哥，说话很温柔，让我不至于想在最后一轮放弃治疗！设计一个类似https://en.wikipedia.org/wiki/Meebo的实时聊天工具，可以整合其他聊天软件比如google hangouts, fb messenger, yahoo的联系人。题目算是4轮里面最简单的了。
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=158941&highlight=wepay
+
+第一轮好像是墨西哥裔。第一个问题，f(n) = 3n + 1 (if n is odd) or n / 2 (if n is even)，collapse sequense指每个数按照这个公式递推直到变为1的所有sequence，求前10000个数中collapse sequense最长的数。第二题，deep iterator
+第二轮印度人。开始让我介绍自己，然后问了浏览器访问cnn.com会发生什么，包括后端的3rd party API和数据。然后问如果页面访问很久才加载，可能会是哪些问题，然后讨论database sharding的问题。一个算法题，String里面包含字符串和数字，找出所有数字然后输出数字的和-google 1point3acres
+第三轮华裔 。先画了一个meebo的界面，说如果涉及搜索人名功能，可以怎么做。然后说了一个string里面替换掉某个字符串为一个URL，类似strStr，写代码。然后问了一个html里面getElementById的方法怎么实现，用tree的递归解决。最后讨论了一下web app里面的web socke
+第四轮白人。一个问题，Tree Inorder Iterator
+
+1. Hiring Manager, 一个文件夹“root”，请找出root底下所有的包含文件名为“src"的文件的路径，值得注意的是，其中有可能包括名字为”src"的文件夹，需要排除在外
+    这个我用Trie和queue结合起来做的-google 1point3acres
+2. 一个面无表情的老印，给了几个数字，好像是“1， 1， 2， 4， 7， 13， 24， ...”，求第i个是什么值
+    我不是记得起我是怎么做的，当时还卡了一段时间，其实就是这个值是前面3个数的和。
+3. 一个老美. 涓€浜�-涓夊垎-鍦帮紝鐙鍙戝竷
+   a. 给一个字符串，格式是：xxx IP: 255.255.255.100 include: wepay.com，然后一个文件中包含多个这样的字符串，提取所有的IP地址
+   b. 还是这个格式，然后每次遇到xxx.com，提取它的对应的IP地址
+   我写了半天，然后小哥好像没怎么认真听，我也觉得我好想没太明白他题目的愿意，最后时间快到的时候他说了个他自己很牛逼的方法。
+4. 一个老印，没怎么看简历，所以问了很多有关无关的问题
+    a. reverse words in a string
+    b. sort a linked list
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=141237&highlight=wepay
+
+
+第一轮：一个很nice的三哥，第一题是用TDD的方式写getAverage的方法来取一个integer array的平均数，因为是TDD，你要写尽可能多的Test Case来覆盖positive和negative的test cases。第二题是Word Break II。
+第二轮： Director of engineering，香港人，第一题是Product Except Itself。第二题是给你一个social graph，人和人之间的关系都是两两互相关注，加好友那种，所以就是双向图。关系图是用Map<1, [2, 3, 4]>这样表示的，然后每个人的好友是sorted的。然后要求找出src到dst的最短degree。也就是如果两个人互为好友degree是1，如果两个人有一个共同好友就是2，然后再加一级是3，大于3之后返回－1。我用BFS解出来后，follow up要求用O(1)的space。他提示让我用上好友是sorted的条件和每两个人都是互相连接这两个条件。但是我到最后都没想出来。。
+中午和这个Director吃个饭见了一下别的人。公司氛围还不错。. 1point3acres.com/bbs
+第三轮：第一题Reverse Linked List，第二题他工作中的问题，给你一个cvs file每一行都是某一个人的名字 但是除了first last name以外，会有零到多个的middle name，然后问题是让你实现一个query function，可以在query里面给一个或者多个名字，如果在cvs file里面同一行里中hit了两个，就返回true，否则false。第三题系统设计题：经典题 design tinyURL。
+第四轮：超好的中国大哥，也是CMU校友。给了我一个放水版的word ladder II。只要任意返回一个path就行，不用最短path，也不用返回所有的，随便一个就行＝ ＝。然后System design 题，给定一个SFTP系统然后和自己的系统相连接，怎么解决transaction failure，怎么解决超多traffic和超多data的情况。
+最后走之前recruiter跑过来说我feedback非常好，也要聊一下，强行第五轮！然后问了我一些behavior question比如你为什么选择startup啊，和大公司比起来什么区别啊。
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=148740&highlight=wepay
+
+
+WePay tools 组onsite面经
+1. 先聊了project，再coding，比如wepay.com对应IP 255:255:169.0，输入是wepay.com，可以根据这个url提取到例如ip:255.255.169.0 includes:google.com 等一堆类似的string，将IP地址全部提取出来，放到一个list，遇到了url，重复这个运算。
+2. reverse words in a string, 其他的都是小问题，比如tcp／Ip， grep指令等等
+3. hiring manager，给一个路径，和一个target string，统计这个路径下面有多少个文件名字是这个target. Waral 鍗氬鏈夋洿澶氭枃绔�,
+4. 偏向系统设计，比如有两个app A和B，A和B的log都存在cloud上，想本地输出所有的log怎么做，要求按照时间排序怎么做，log更新速度很快怎么做
+
+
+1. 一个设计题，是他自己工作中的内容，类似信用卡validation，讨论了一个小时，我根据理解说了一些可以用的数据结构和算法，写了一些pseudo code.. 鐣欏鐢宠璁哄潧-涓€浜╀笁鍒嗗湴
+2. Hiring manager，写了一个题，类似于Tree traversal。问了几个Computer Networks 的简单问题，然后就结束了。
+3. Implement Hashtable.
+3. 问了一些Java的问题，写了两个题，Reverse words in a string 和 The first non-repeating character in a string。
+http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=140010&highlight=wepay
