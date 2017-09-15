@@ -2,81 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e7f7af-2e71-4d50-bb53-0f17d8557cca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BuildSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/AgentSeveralGoals.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/Anagram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/Bipartite.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/Calendar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/CalendarAddDay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/CoinChange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/CountThree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/Database.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/DeadLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/DecodeString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/DistanceOfBitsBetweenTwoIntegers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/EditDistance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/EncodeandDecodeString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/EncodeandDecodeStrings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/EvenOddLongest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/Fibonacci.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/FindMinimuminRotatedSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/FindMinimuminRotatedSortedArrayII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/FrequentHashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/GraphPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/GraphPathLongest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/ImplementQueueusingStacks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/ImplementStackusingQueues.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/InterfaceAsAMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/KSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/KthMinInSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/LongestIncreasingSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/MaximalRectangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/MeregeKSortedArrays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/NextPermutation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/NineNth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/OOP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/PrintAllLongestIncreasingSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/PrintTimeString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/QueryCounterService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/RandomIntegerStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/RegularExpressionMatching.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/ResolvePrime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/Shell" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/SingetonPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/SortColors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/StringToFloat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/TaxTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/ThreadProcess.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/ThreeSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/TreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/TwoSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/UnfairCoin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/UniqueBinarySearchTrees.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/UniqueBinarySearchTreesII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/ValidNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/ValidateBinarySearchTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/WordBreak.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/returnFreqNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/returnTopKNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/非编程问题" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/indeed/OA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/非编程问题" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yelp/BusinessInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yelp/business.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yelp/minIndexRestaurant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yelp/reduce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yelp/reduceE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yelp/topColor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Company Algorithm Solution/twitter/LongestPhrasesInATweet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Company Algorithm Solution/twitter/SQL Order 1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Company Algorithm Solution/twitter/SQL Parent, Child and Tree" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Company Algorithm Solution/wepay/WePay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/twitter/LongestPhrasesInATweet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/twitter/SQL Order 1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/twitter/SQL Parent, Child and Tree" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/wepay/WePay.java" afterPath="$PROJECT_DIR$/src/wepay/WePayOA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/AndroidUnlockPatterns.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/DivideThree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/FindPeakElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/Google.com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/InsertDeleteGetRandom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/RangeSumQuery2D_Immutable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/Sqrt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/TextJustification.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/houzz/WordBreakII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/indeed/ExpiringMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/AddTwoNumbersII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/AverageArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/BINfilevalidation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/BasicCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/BinarySearchTreePath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/BinaryTreeLevelOrderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/BinaryTreePreorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/Bipartite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ConvertSortedArraytoBinarySearchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/EnglishNameNick.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/EvaluateReversePolishNotationCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/Fibonacci.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/FindMinimuminRotatedSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/FlattenNestedListIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/GenerateParentheses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/GraphPath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/GroupAnagrams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/InvertBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/LeafDoubleLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ListNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/LowestCommonAncestorofaBinarySearchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/LowestCommonAncestorofaBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/MaximumSubarray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/MedianofTwoSortedArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/MergeTwoSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/MergeTwoSortedLists.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/NumberOfDistinctPalindrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ProductofArrayExceptSelf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ReverseLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ReverseWordsinaStringII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/SearchinRotatedSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/SpiralMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/SpiralMatrixII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/Sqrt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/SymmetricTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ThreeCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ThreeSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/TreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ValidNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ValidParentheses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ValidSudoku.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/ValidateEmail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/WordBreakII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/WordLadderII.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/unqiueChar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wepay/基础知识" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Company Algorithm Solution/facebook/TwoSumWithDuplicateNumber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/facebook/TwoSumWithDuplicateNumber.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Company Algorithm Solution/houzz/Bipartite.class" afterPath="$PROJECT_DIR$/out/production/Company Algorithm Solution/houzz/Bipartite.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Company Algorithm Solution/houzz/MaximalRectangle.class" afterPath="$PROJECT_DIR$/out/production/Company Algorithm Solution/houzz/MaximalRectangle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Company Algorithm Solution/houzz/非编程问题" afterPath="$PROJECT_DIR$/out/production/Company Algorithm Solution/houzz/非编程问题" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Company Algorithm Solution/wepay/非编程问题" afterPath="$PROJECT_DIR$/out/production/Company Algorithm Solution/wepay/非编程问题" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/houzz/Bipartite.java" afterPath="$PROJECT_DIR$/src/houzz/Bipartite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/houzz/MaximalRectangle.java" afterPath="$PROJECT_DIR$/src/houzz/MaximalRectangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/houzz/OOP.java" afterPath="$PROJECT_DIR$/src/houzz/OOP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/houzz/QueryCounterService.java" afterPath="$PROJECT_DIR$/src/houzz/QueryCounterService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/houzz/非编程问题" afterPath="$PROJECT_DIR$/src/houzz/非编程问题" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wepay/非编程问题" afterPath="$PROJECT_DIR$/src/wepay/非编程问题" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,52 +84,20 @@
     <favorites_list name="Company Algorithm Solution" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="非编程问题" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/houzz/非编程问题">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaximalRectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/houzz/MaximalRectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryCounterService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/houzz/QueryCounterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>, visited</find>
       <find>res + 1</find>
       <find>n</find>
-      <find>add</find>
       <find>unique</find>
       <find>two</find>
       <find>sum</find>
@@ -153,6 +115,17 @@
       <find>am</find>
       <find>rLen</find>
       <find>abs</find>
+      <find>max</find>
+      <find>email</find>
+      <find>phone</find>
+      <find>double</find>
+      <find>linked</find>
+      <find>ite</find>
+      <find>src</find>
+      <find>nest</find>
+      <find>worklist</find>
+      <find>Data</find>
+      <find>add</find>
     </findStrings>
     <replaceStrings>
       <replace>len</replace>
@@ -161,12 +134,12 @@
       <replace>curMager</replace>
       <replace>managerID</replace>
       <replace>input</replace>
-      <replace>Node</replace>
       <replace>GraphPath.Node</replace>
       <replace>map</replace>
       <replace>target</replace>
       <replace>j</replace>
       <replace>row</replace>
+      <replace>Node</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -180,57 +153,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/wepay/非编程问题" />
-        <option value="$PROJECT_DIR$/src/wepay/WePay.java" />
-        <option value="$PROJECT_DIR$/src/houzz/InterfaceAsAMethod.java" />
-        <option value="$PROJECT_DIR$/src/houzz/Shell 命令" />
-        <option value="$PROJECT_DIR$/src/houzz/Shell" />
-        <option value="$PROJECT_DIR$/src/houzz/NextPermutation.java" />
-        <option value="$PROJECT_DIR$/src/houzz/WordBreak.java" />
-        <option value="$PROJECT_DIR$/src/houzz/PrintAllLongestIncreasingSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/houzz/Anagram.java" />
-        <option value="$PROJECT_DIR$/src/houzz/TaxTable.java" />
-        <option value="$PROJECT_DIR$/src/houzz/Calendar.java" />
-        <option value="$PROJECT_DIR$/src/houzz/AndroidUnlockPattern.java" />
-        <option value="$PROJECT_DIR$/src/houzz/Bipartite.java" />
-        <option value="$PROJECT_DIR$/src/houzz/NineNth.java" />
-        <option value="$PROJECT_DIR$/src/houzz/returnFreqNumber.java" />
-        <option value="$PROJECT_DIR$/src/houzz/FindMinimuminRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/houzz/PrintTimeString.java" />
-        <option value="$PROJECT_DIR$/src/houzz/ImplementQueueusingStacks.java" />
-        <option value="$PROJECT_DIR$/src/houzz/LongestIncreasingSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/houzz/RandomIntegerStream.java" />
-        <option value="$PROJECT_DIR$/src/houzz/MeregeKSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/houzz/SortColors.java" />
-        <option value="$PROJECT_DIR$/src/houzz/EditDistance.java" />
-        <option value="$PROJECT_DIR$/src/houzz/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/houzz/DecodeString.java" />
-        <option value="$PROJECT_DIR$/src/houzz/EncodeandDecodeStrings.java" />
-        <option value="$PROJECT_DIR$/src/houzz/EncodeandDecodeString.java" />
-        <option value="$PROJECT_DIR$/src/houzz/ValidNumber.java" />
-        <option value="$PROJECT_DIR$/src/houzz/DistanceOfBitsBetweenTwoIntegers.java" />
-        <option value="$PROJECT_DIR$/src/houzz/AgentSeveralGoals.java" />
-        <option value="$PROJECT_DIR$/src/houzz/KthMinInSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/houzz/TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/houzz/FrequentHashMap.java" />
-        <option value="$PROJECT_DIR$/src/houzz/UnfairCoin.java" />
-        <option value="$PROJECT_DIR$/src/houzz/GraphPath.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/houzz/QueryCounterService.java" />
-        <option value="$PROJECT_DIR$/src/houzz/EvenOddLongest.java" />
-        <option value="$PROJECT_DIR$/src/houzz/RegularExpressionMatching.java" />
-        <option value="$PROJECT_DIR$/src/houzz/CountTree.java" />
-        <option value="$PROJECT_DIR$/src/houzz/CountThree.java" />
-        <option value="$PROJECT_DIR$/src/houzz/CoinChange.java" />
-        <option value="$PROJECT_DIR$/src/houzz/MaximalRectangle.java" />
-        <option value="$PROJECT_DIR$/src/houzz/GraphPathLongest.java" />
-        <option value="$PROJECT_DIR$/src/houzz/KSum.java" />
-        <option value="$PROJECT_DIR$/src/houzz/SingetonPattern.java" />
-        <option value="$PROJECT_DIR$/src/houzz/DeadLock.java" />
-        <option value="$PROJECT_DIR$/src/houzz/ThreadProcess.java" />
-        <option value="$PROJECT_DIR$/src/houzz/OOP.java" />
         <option value="$PROJECT_DIR$/src/houzz/非编程问题" />
-        <option value="$PROJECT_DIR$/src/houzz/Database.java" />
+        <option value="$PROJECT_DIR$/src/houzz/Google.com" />
+        <option value="$PROJECT_DIR$/src/wepay/ReverseWordsinaStringII.java" />
+        <option value="$PROJECT_DIR$/src/wepay/153. Find Minimum in Rotated Sorted Array.java" />
+        <option value="$PROJECT_DIR$/src/wepay/FindMinimuminRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/wepay/unqiueChar.java" />
+        <option value="$PROJECT_DIR$/src/wepay/MergeTwoSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ValidNumber.java" />
+        <option value="$PROJECT_DIR$/src/wepay/EnglishNameNick.java" />
+        <option value="$PROJECT_DIR$/src/wepay/LowestCommonAncestorofaBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/wepay/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/wepay/MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/wepay/InvertBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ThreeSum.java" />
+        <option value="$PROJECT_DIR$/src/wepay/SymmetricTree.java" />
+        <option value="$PROJECT_DIR$/src/wepay/GroupAnagrams.java" />
+        <option value="$PROJECT_DIR$/src/wepay/NumberOfDistinctPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/wepay/GraphPath.java" />
+        <option value="$PROJECT_DIR$/src/wepay/SpiralMatrix.java" />
+        <option value="$PROJECT_DIR$/src/wepay/SpiralMatrixII.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ValidSudoku.java" />
+        <option value="$PROJECT_DIR$/src/wepay/BinaryTreeLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/wepay/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/wepay/BinaryTreePreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/wepay/MaximumSubarray.java" />
+        <option value="$PROJECT_DIR$/src/wepay/BasicCalculator.java" />
+        <option value="$PROJECT_DIR$/src/wepay/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/houzz/Sqrt.java" />
+        <option value="$PROJECT_DIR$/src/wepay/Sqrt.java" />
+        <option value="$PROJECT_DIR$/src/wepay/AverageArray.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ValidateEmail.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ConvertSortedArraytoBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/wepay/EvaluateReversePolishNotationCalculator.java" />
+        <option value="$PROJECT_DIR$/src/wepay/FlattenNestedListIterator.java" />
+        <option value="$PROJECT_DIR$/src/wepay/Bipartite.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ProductofArrayExceptSelf.java" />
+        <option value="$PROJECT_DIR$/src/wepay/SearchinRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/wepay/BinarySearchTreePath.java" />
+        <option value="$PROJECT_DIR$/src/wepay/LeafDoubleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/wepay/AddTwoNumbersII.java" />
+        <option value="$PROJECT_DIR$/src/wepay/BINfilevalidation.java" />
+        <option value="$PROJECT_DIR$/src/wepay/ThreeCount.java" />
+        <option value="$PROJECT_DIR$/src/wepay/WordLadderII.java" />
+        <option value="$PROJECT_DIR$/src/wepay/WordBreakII.java" />
+        <option value="$PROJECT_DIR$/src/wepay/MedianofTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/wepay/非编程问题" />
+        <option value="$PROJECT_DIR$/src/wepay/基础知识" />
+        <option value="$PROJECT_DIR$/src/indeed/ExpiringMap.java" />
       </list>
     </option>
   </component>
@@ -241,7 +214,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="353" />
+    <option name="x" value="101" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="707" />
@@ -280,16 +253,16 @@
               <item name="Company Algorithm Solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="Company Algorithm Solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="houzz" type="462c0819:PsiDirectoryNode" />
+              <item name="indeed" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +270,11 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="wepay" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/wepay" />
       <recent name="$PROJECT_DIR$/src/houzz" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/facebook" />
@@ -315,15 +292,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GraphPathLongest">
-    <configuration name="EvenOddLongest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.GraphPath">
+    <configuration name="AverageArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="houzz.*" />
+          <option name="PATTERN" value="wepay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="houzz.EvenOddLongest" />
+      <option name="MAIN_CLASS_NAME" value="wepay.AverageArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -335,14 +312,33 @@
       <module name="Company Algorithm Solution" />
       <envs />
     </configuration>
-    <configuration name="FrequentHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DivideThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="houzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="houzz.FrequentHashMap" />
+      <option name="MAIN_CLASS_NAME" value="houzz.DivideThree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Company Algorithm Solution" />
+      <envs />
+    </configuration>
+    <configuration name="EnglishNameNick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="wepay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="wepay.EnglishNameNick" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -357,11 +353,11 @@
     <configuration name="GraphPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="houzz.*" />
+          <option name="PATTERN" value="wepay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="houzz.GraphPath" />
+      <option name="MAIN_CLASS_NAME" value="wepay.GraphPath" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -381,20 +377,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="houzz.GraphPathLongest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Company Algorithm Solution" />
-      <envs />
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -785,19 +767,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FrequentHashMap" />
-      <item index="1" class="java.lang.String" itemvalue="Application.GraphPath" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GraphPathLongest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.EvenOddLongest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GraphPathLongest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DivideThree" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AverageArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.EnglishNameNick" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GraphPath" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GraphPathLongest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EvenOddLongest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GraphPath" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FrequentHashMap" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GraphPath" />
+        <item index="1" class="java.lang.String" itemvalue="Application.EnglishNameNick" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AverageArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DivideThree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GraphPathLongest" />
       </list>
     </recent_temporary>
   </component>
@@ -839,46 +821,46 @@
       <workItem from="1504648625747" duration="10456000" />
       <workItem from="1504760974286" duration="19355000" />
       <workItem from="1504851918110" duration="752000" />
-      <workItem from="1504882930289" duration="66592000" />
+      <workItem from="1504882930289" duration="106074000" />
+      <workItem from="1505515349033" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202837000" />
+    <option name="totallyTimeSpent" value="242326000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="23" width="1280" height="707" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="707" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32597622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27733755" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27674022" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20882852" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24232633" sideWeight="0.492569" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2463651" sideWeight="0.492569" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767403" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24232633" sideWeight="0.507431" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3956229" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39558575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32597622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20882852" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22071308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -892,7 +874,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="35" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -901,415 +883,417 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/houzz/Anagram.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/EnglishNameNick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/TaxTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/AndroidUnlockPattern.java" />
-    <entry file="file://$PROJECT_DIR$/src/houzz/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/PrintAllLongestIncreasingSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/ResolvePrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/Bipartite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/NineNth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/returnTopKNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="66" column="5" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/PrintTimeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/UniqueBinarySearchTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/ImplementQueueusingStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/LongestIncreasingSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/RandomIntegerStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/returnFreqNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/SortColors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/DecodeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/EncodeandDecodeStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="320">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#701#709#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/Fibonacci.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/ValidNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/LowestCommonAncestorofaBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/MergeTwoSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="79" column="36" lean-forward="false" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/EncodeandDecodeString.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="48" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/EditDistance.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/InvertBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="40" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-505">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/SymmetricTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/FindMinimuminRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/NumberOfDistinctPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/houzz/DistanceOfBitsBetweenTwoIntegers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/FindMinimuminRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="-15">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/FindMinimuminRotatedSortedArrayII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/AgentSeveralGoals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/MeregeKSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/KthMinInSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/FrequentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/UnfairCoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/GraphPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/EvenOddLongest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding>
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/RegularExpressionMatching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/CountThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/CoinChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="25" column="74" lean-forward="false" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/houzz/GraphPathLongest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/houzz/GraphPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="100" column="5" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="100" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/GraphPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/SpiralMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/SpiralMatrixII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/ValidSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="59" column="3" lean-forward="false" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
-          <caret line="36" column="103" lean-forward="false" selection-start-line="36" selection-start-column="103" selection-end-line="36" selection-end-column="103" />
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/BinaryTreePreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/KSum.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/MaximumSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+        <state relative-caret-position="74">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/houzz/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/BasicCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/houzz/Sqrt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/BinaryTreeLevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/Sqrt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/AverageArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/ValidateEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/InterfaceAsAMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/FlattenNestedListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="35">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#1308#1309#0" expanded="false" />
+            <element signature="e#1350#1351#0" expanded="false" />
+            <element signature="e#1629#1630#0" expanded="false" />
+            <element signature="e#1673#1674#0" expanded="false" />
+            <element signature="e#1885#1886#0" expanded="false" />
+            <element signature="e#1921#1922#0" expanded="false" />
+            <element signature="e#2139#2140#0" expanded="false" />
+            <element signature="e#2174#2175#0" expanded="false" />
+            <element signature="e#2207#2208#0" expanded="false" />
+            <element signature="e#2260#2261#0" expanded="false" />
+            <element signature="e#2295#2296#0" expanded="false" />
+            <element signature="e#2347#2348#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/SingetonPattern.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/Bipartite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="99" column="6" lean-forward="false" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="24">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/EvaluateReversePolishNotationCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="37">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#385#394#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/DeadLock.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/ConvertSortedArraytoBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar!/sun/awt/Mutex.class">
+    <entry file="file://$PROJECT_DIR$/src/wepay/ProductofArrayExceptSelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/ThreadProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/SearchinRotatedSortedArray.kt" />
+    <entry file="file://$PROJECT_DIR$/src/wepay/SearchinRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="382">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/OOP.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/LeafDoubleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="382">
+          <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/MaximalRectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/AddTwoNumbersII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="92">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#341#350#0" expanded="false" />
+            <element signature="e#391#400#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/Database.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/BinarySearchTreePath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/QueryCounterService.java">
+    <entry file="file://$PROJECT_DIR$/src/wepay/BINfilevalidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="467">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#1158#1159#0" expanded="false" />
+            <element signature="e#1195#1196#0" expanded="false" />
+            <element signature="e#1765#1766#0" expanded="false" />
+            <element signature="e#1807#1808#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/houzz/非编程问题">
+    <entry file="file://$PROJECT_DIR$/src/wepay/ThreeCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="202">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/WordLadderII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="93" column="1" lean-forward="false" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+          <folding>
+            <element signature="e#379#393#0" expanded="true" />
+            <element signature="e#482#498#0" expanded="true" />
+            <element signature="e#612#632#0" expanded="true" />
+            <element signature="e#684#692#0" expanded="true" />
+            <element signature="e#1919#1927#0" expanded="true" />
+            <element signature="e#2731#2739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/WordBreakII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="34" lean-forward="false" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#491#492#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
+            <element signature="e#1415#1416#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/houzz/Google.com">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/MedianofTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/基础知识">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wepay/非编程问题">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2249">
+          <caret line="499" column="44" lean-forward="false" selection-start-line="499" selection-start-column="41" selection-end-line="499" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indeed/ExpiringMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="15" lean-forward="true" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

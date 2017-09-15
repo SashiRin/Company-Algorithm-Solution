@@ -1,0 +1,87 @@
+1. process和thread的区别 Semephore vs Mutex
+A mutex object only allows one thread into a controlled section, forcing other threads which attempt to
+     gain access to that section to wait until the first thread has exited from that section." Ref: Symbian
+     Developer Library. (A mutex is really a semaphore with value 1.
+
+     1.   Mutex是一个令牌，当一个线程拿到这个令牌时运行，另外想拿到令牌的线程就必须等待，直到拿到令牌的线程释放令牌。没有所有权的线程是无法释放令牌的。
+
+     2.   Mutex（false，”string”）中的string是令牌的关键，或者可以叫令牌名，因为Mutex是跨进程的，整个系统中只会有唯一的令牌存在所以，
+     也就是说你在一个应用程序中的一个线程中得到了Mutex的所有权，那在另外一个线程中的另外的线程想得到他就必须要等待。
+In the case of a semaphore, a thread waiting on a semaphore can be signaled by a different thread.
+
+
+进程线程区别
+    What is the technical difference between a process and a thread?
+
+    Both processes and threads are independent sequences of execution. The typical difference is that threads
+    (of the same process) run in a shared memory space, while processes run in separate memory spaces.
+
+    Processes
+
+    A process has a self-contained execution environment. A process generally has a complete,
+    private set of basic run-time resources; in particular, each process has its own memory space.
+
+    Processes are often seen as synonymous with programs or applications. However, what the user
+    sees as a single application may in fact be a set of cooperating processes.
+    To facilitate communication between processes, most operating systems support Inter Process Communication (IPC)
+    resources, such as pipes and sockets. IPC is used not just for communication between processes on the same system,
+    but processes on different systems.
+
+    Most implementations of the Java virtual machine run as a single process.
+    A Java application can create additional processes using a ProcessBuilder object.
+    Multiprocess applications are beyond the scope of this lesson.
+
+    Threads
+
+    Threads are sometimes called lightweight processes. Both processes and threads provide an
+    execution environment, but creating a new thread requires fewer resources than creating a new process.
+
+    Threads exist within a process — every process has at least one. Threads share the process's
+    resources, including memory and open files. This makes for efficient, but potentially problematic, communication.
+
+2. 进程的内存空间里stack和heap的区别
+
+
+Stack is used for static memory allocation and Heap for dynamic memory allocation, both stored in the computer's RAM .
+
+Variables allocated on the stack are stored directly to the memory and access to this memory is very fast,
+and it's allocation is dealt with when the program is compiled. When a function or a method calls another
+ function which in turns calls another function etc., the execution of all those functions remains suspended until
+  the very last function returns its value. The stack is always reserved in a LIFO order, the most recently reserved
+  block is always the next block to be freed. This makes it really simple to keep track of the stack, freeing a block
+  from the stack is nothing more than adjusting one pointer.
+
+Variables allocated on the heap have their memory allocated at run time and accessing this memory is a bit slower,
+ but the heap size is only limited by the size of virtual memory . Element of the heap have no dependencies with each
+ other and can always be accessed randomly at any time. You can allocate a block at any time and free it at any time.
+ This makes it much more complex to keep track of which parts of the heap are allocated or free at any given time.
+
+3. UDP和TCP的区别
+
+Common : Both TCP and UDP are protocols used for
+sending bits of data—known as packets—over the Internet. Both protocols build on top of the IP protocol.
+
+Reliability
+TCP is more reliable since it manages message acknowledgment and retransmissions in case of lost parts.
+Thus there is absolutely no missing data. UDP does not ensure that communication has reached receiver since
+concepts of acknowledgment, time out and retransmission are not present.
+
+Ordering
+TCP transmissions are sent in a sequence and they are received in the same sequence. In the event of data
+segments arriving in wrong order, TCP reorders and delivers application. In the case of UDP, sent message sequence
+ may not be maintained when it reaches receiving application. There is absolutely no way of predicting the order in
+  which message will be received.
+
+Connection
+TCP is a heavy weight connection requiring three packets for a socket connection and handles congestion control
+ and reliability. UDP is a lightweight transport layer designed atop an IP. There are no tracking connections or
+ ordering of messages.
+
+Method of transfer
+TCP reads data as a byte stream and message is transmitted to segment boundaries. UDP messages are packets which
+ are sent individually and on arrival are checked for their integrity. Packets have defined boundaries while data
+ stream has none.
+
+
+
+www.google.com发生了什么，希望把熟悉的部分讲多一点。

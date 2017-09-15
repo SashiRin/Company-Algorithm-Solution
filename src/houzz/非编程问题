@@ -1,19 +1,35 @@
 html 琐碎问题
 
-www.google.com (send get request, DNS, load balancer, server, find static file or go into MVC and database interactions, send back result)
-
 
 等待贴上去：
-351. Android Unlock Patterns
 find median of two sorted array
-检查一个graph是不是bipartite
-wordbreak 2 (follow up : NLP problems
 给一个节点，打印出树的graph   http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=290666&pid=3148308&page=1&extra=#pid3148308
-68. Text Justification
 max rectangle 输出其坐标  一个变化是要求最后返回一个maximal rectangle的identifier。这个面试官说的很模糊，只要返回的东西能准确定位到这个最大矩形即可。
 完全背包， 刚开始理解成了01背包，后来发现他想要完全背包
 find local minimum in an array given A[0]>A[1] && A[n]>A[n-1]
 https://www.careercup.com/question?id=6297234405588992
+
+
+
+设计一个密码生成器，生成8位的，包含以下四种信息（大写字母， 小写字母， 特殊符号，数字）每个至少一个的密码。我的方法是三步：
+a. 先random每一个种信息我要多少位，比如大写字母2个，小写3个，特殊字符1个， 数字2个这样。
+b. 然后对应生成随机的各个部分，比如大写字母DS， 小写sks，特殊字符!，数字82，那么我们就有DSsks!82了。
+c. 最后做shuffle，这里用fisher-yates shuffle，在O(n)的时间内shuffle这个数组，就可以得到对应的结果了
+
+Follow up是如果位数也是随机的(不是8位固定)，然后信息组数也是随机的，比如不一定要每一种信息都有怎么办。其实就是多生成两个随机数。
+
+
+设计一个能够支持like(int postId, int userId)，一个人赞了一个post，getLikes(int postId)获取所有喜欢这个post的人，
+以及getTopK(int k)返回获得赞最多的k个post以及分别多少个赞。我是用了LFU的思想，维护了两个map，一个是postId -> set(userId)，
+一个是likes -> set(postId)，并且第二个map是LinkedHashMap，让key能够是sorted，然后我们要get的时候遍历第二map，从like多到少就好了。
+follow up是我们要scaling，怎么办。我想的是两个map都拆开，然后用map reduce的思想来parrallel，insert的时候把postId加到不同postId范围
+的的机器上的map，(有点像mapper），然后处理完以后shuffle给reducer，是根据不同Like数分的机器，比如1-100个like的post去机器1，
+101-500的去机器2…，当我们要getTopK的时候就从最多的like的机器的map里开始取。其实我也不知道对不对，就和小哥瞎侃了。
+
+我们有一个爬虫，可以爬到很多父子关系，比如us -> ca, us-> tx, ca -> san jose, ca -> palo alto, tx -> austin等等，
+怎么建立这个数据结构，需要支持插入这些关系insertNode(Node father, Node son)（关系顺序是随机的），此外可以查询每个节点的子节点，
+比如getNodes(“us”) 然后return ‘ca’和’tx’。没有写代码，说了下思路，其实就是每一个node结构有名字和子节点，
+用一个map来存名字和node的对应map<string, node>，然后insert和get就很好做了
 
 
 onsite :
@@ -33,3 +49,8 @@ Design Excel. Implement (leetcode)
 int get(string cell)
 void put(string cell, string expr). expr can be "A1= B1+1".
 这题的关键在于，要解决各个cell的dependence问题. 比如说call put(B1, "3")之后，同时也要update A1的值。会牵扯到topo sort的问题。总之这题是design题，就看你有没有意识到这种dependence。
+
+纯database面试，设计houzz里一张图片里面标记不同家居信息，以及家具具体信息的schema，大概有好几个表，
+比如一个photo的表，photoToProduct关系的表，然后product信息的表，productDetail的表（不同color，不同price等等），
+productReview的表之类的。一开始很多attribute或者关系我都没想到，面试官还是给了挺多提示的，感谢！然后提示多了自己都虚。
+然后根据这些五六个table写了三个SQL，比较简单，就是几个表JOIN下拿信息就好了

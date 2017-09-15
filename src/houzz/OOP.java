@@ -10,7 +10,8 @@ package houzz;
  */
 public class OOP {
     /*
-    OOP : encapsulation Inheritance Polymorphism
+    JVM :入Java语言虚拟机后，Java语言在不同平台上运行时不需要重新编译。Java语言使用Java虚拟机屏蔽了与具体平台相关的信息，使得Java语言编译程序只需生成在Java虚拟机上运行的目标代码（字节码），就可以在多种平台上不加修改地运行。
+    OOP : encapsulation [ɪn,kæpsə'leʃən] Inheritance [ɪn'hɛrɪtəns] Polymorphism [,pɑlɪ'mɔrfɪzm]
 
     Define Inheritance?
     It is the process where one object acquires the properties of another. With the use of inheritance the information is made manageable in a hierarchical order
