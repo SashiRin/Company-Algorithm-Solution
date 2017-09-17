@@ -1,4 +1,8 @@
+import houzz.TreeNode;
+
 import java.util.*;
+
+import static indeed.TiltBinaryTree.tilt;
 
 /**
  * Project Name : Company Algorithm Solution
@@ -10,17 +14,40 @@ import java.util.*;
  */
 public class Test {
 
-    public static void merge(String word1, String word2) {
+    static class TreeNode {
+
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode (int x) {
+            val = x;
+        }
 
     }
 
+    public static int tiltNumber(TreeNode head) {
+        if (head == null || head.left == null && head.right == null) return 0;
+        int[] result =  {0};
+        helper(head, result);
+        return result[0];
+    }
+    public static int helper(TreeNode head, int[] result) {
+        if (head == null) return 0;
+
+        int left = helper(head.left, result);
+        int right = helper(head.right,result);
+        result[0] += Math.abs(left - right);
+        return left + right + head.val;
+    }
     public static void main(String[] args) {
-        List<Integer> s1 = new ArrayList<>();
-        s1.add(1);
-        List<Integer> s2 = new ArrayList<>();
-        s2 = s1;
-        for (int num : s2) {
-            System.out.println(num);
-        }
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
+        root.right.left = new TreeNode(6);
+        //root.right.right = new TreeNode(7);
+        System.out.println(tiltNumber(root));
     }
 }
