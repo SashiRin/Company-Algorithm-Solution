@@ -27,6 +27,8 @@ public class ExpiringMap<K, V> extends TimerTask {
     get(10) --> return 35;
     //超出3000毫秒：
     get(10) --> return null;
+
+    Concurrency, 我就说了下read write lock
      */
     // fields
     class Node<K, V> {
@@ -37,7 +39,7 @@ public class ExpiringMap<K, V> extends TimerTask {
         private long startTime;
 
         // methods
-        public Node (V value, long duration, long startTime) {
+        public Node (K key, V value, long duration, long startTime) {
             this.value = value;
             this.duration = duration;
             this.startTime = startTime;
@@ -56,10 +58,10 @@ public class ExpiringMap<K, V> extends TimerTask {
 
     public void put(K key, V value, long duration) {
         long startTime = System.currentTimeMillis();
-        Node node = new Node(value, duration, startTime);
+        Node node = new Node(key, value, duration, startTime);
         map.put(key, node);
         checkTime();
-        addToHead(value, duration, startTime);
+        addToHead(key, value, duration, startTime);
     }
 
     public V get(K key) {
@@ -84,8 +86,9 @@ public class ExpiringMap<K, V> extends TimerTask {
             }
         }
     }
-    public void addToHead(V value, long duration, long startTime) {
-        Node node = new Node(value, duration, startTime);
+
+    public void addToHead(K key, V value, long duration, long startTime) {
+        Node node = new Node(key, value, duration, startTime);
         list.addFirst(node);
     }
 

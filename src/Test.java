@@ -13,41 +13,44 @@ import static indeed.TiltBinaryTree.tilt;
  * Description : TODO
  */
 public class Test {
-
-    static class TreeNode {
-
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode (int x) {
-            val = x;
+    public static List<String> so(int[] nums) {
+        List<String> list = new ArrayList<>();
+        if(nums == null || nums.length == 0) {
+            return list;
         }
-
+        int start = 0;
+        while(start < nums.length) {
+            int j = binarySearch(nums, start, nums.length);
+            String s = String.valueOf(nums[start]);
+            String e = String.valueOf(nums[j]);
+            if(s.equals(e)) {
+                list.add(e);
+            } else {
+                list.add(s + "->" + e);
+            }
+            start = j + 1;
+        }
+        return list;
+    }
+    public static int binarySearch(int[] nums, int start, int end) {
+        int l = start, r = end;
+        while(l + 1 < r) {
+            int mid = l + (r - l) / 2;
+            if(nums[mid] - nums[l] > mid - l) {
+                r = mid;
+            } else {
+                l = mid;
+            }
+        }
+        return l;
     }
 
-    public static int tiltNumber(TreeNode head) {
-        if (head == null || head.left == null && head.right == null) return 0;
-        int[] result =  {0};
-        helper(head, result);
-        return result[0];
-    }
-    public static int helper(TreeNode head, int[] result) {
-        if (head == null) return 0;
-
-        int left = helper(head.left, result);
-        int right = helper(head.right,result);
-        result[0] += Math.abs(left - right);
-        return left + right + head.val;
-    }
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        root.left.left = new TreeNode(4);
-        root.left.right = new TreeNode(5);
-        root.right.left = new TreeNode(6);
-        //root.right.right = new TreeNode(7);
-        System.out.println(tiltNumber(root));
+        int[] test2 = {1,2,3,4,5,6,7,8,9,10,12,13,16};
+
+        List<String> res = so(test2);
+        for (String s : res) {
+            System.out.println(s);
+        }
     }
 }

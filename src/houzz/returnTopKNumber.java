@@ -49,6 +49,8 @@ public class returnTopKNumber {
                 }
             }
         }
+        //Collections.sort(list);
+        //Collections.reverse(list);
         Collections.sort(ret, new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {

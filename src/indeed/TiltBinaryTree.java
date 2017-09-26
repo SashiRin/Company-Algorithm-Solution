@@ -18,7 +18,6 @@ public class TiltBinaryTree {
      follow up : 要去掉一个叶子，让总的tilt变得最小：
                 greedy ： 没想出来
                 不考虑时间复杂度: 挨个删掉叶子，检查删掉谁后的节点最小
-
      */
 
     private static int res = 0;

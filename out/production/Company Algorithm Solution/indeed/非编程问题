@@ -1,25 +1,51 @@
-online coding
-就是给你一些句子（相当于你的collection of documents)
-然后给你一些query单词，可能是a,a&b,a|b
-然后让你给出按frequency排序的结果
+
+PrefixString BST？
+
+onsite :
+设计Tweet信息派送
+Dungeon games
+输入字符带括号的四则混合运算。(参见逆波兰表达式)
+存树。用什么办法可以节省空间，如果比较full的tree，用heap的实现方式。比较sparse的tree就用tree本身。介于中间的可以用两个数组，一个表示value，一个表示这个节点在第一种表示方式下的index。
+系统设计, 设计公司review 系统, 用户可上传review, 搜寻review. 用什麽资料库,怎麽scale.
+系统设计， 一个电商系统，模型是有markt模块，负责产生http link, sales用这些link去做推广；用户点击后有credit给sales,并进入order protal模块；提交订单后进入fullfillment 模块，然后返回结果给order protal
+一问： 新系统要把order protal 模块放第三方云上去，问怎么修改原有系统？二问： 如何设计market 模块. Waral 鍗氬鏈夋洿澶氭枃绔�,
+在几轮面试过程中，发现面的这个组就是新成立的干整合第三方API，把模块移动saleforce上便于scale, 在解决类似面试题目的场景
+面超时了，主面试官（好像就是这个职位直接的manager）很不屑说以前都是面完还有几分钟时间聊天的。。。就这么跪了.鐣欏
+
+
+ implement linked list with arraylist
+ 3)Manager 面的，然后他自己定义了一个结构类似Hash Table with linked list的结构，然后让你写一个function插入一个数，然后继续问删除一个数
 
 
 
-reverse html，要求是html entity要作为一个整体来reverse   java的话上string buffer
-比如"123&euro;432&euro;"，reverse完应该是"&euro;234&euro;321"，给出了O(n)的解法
-比如多个&&或;;连续，但是我的面试官说不会有nested的情况
-还有就是我用while里套while查另一个char，出内层循环的时候index赋值很容易错，要考虑清楚下次while循环查询时的开始值是什么，还有最后扫到string末尾的收尾情况。
-注意"a&&nbsp;;b"这样的情况就行   &yen; &also;作为两个整体  &&;;最内部的&;作为整体
-a&&nbsp;;b  ->  b;&nbsp;&a
+ LinkedList和arrayList
+ String是immutable的 : http://www.cnblogs.com/zhonghan/p/3675708.html
 
-求n个有序数组里面出现频率k（这里的定义是在多少个数组出现过）以上的数
+ 1, String Pool的需要。
+ String pool(String intern pool) 是一个方法区里的特殊的存储区域。当创建一个String, 如果它已经在pool中存在，则会返回一存在String的引用，
+ 相反，怎会创建一个新的String,并返回该引用。
+
+ 2. 允许String缓存它的hashcode
+ String的hashcode在JAVA中是使用非常频繁的。例如在HashMapzhong, String设计成immutable保证了hashcode总是一样的，
+ 所以hashcode可以被缓存而不用担心改变。也就是说，不需要每次在使用hashcode时都去计算一遍，这样更高效。
+
+ 3. 安全
+ String广泛的作为参数被JAVA中的类使用，比如 网络连接，打开的文件等等，如果String不是immutable，一个连接或文件的改变将导致严重的安全威胁，
+ 一个方法还以为正连接到一个机器上，并其实没有。可变的String同样将导致反射的安全性问题，因为反射中的参数都是String类型的。
 
 
+ Checked exception vs. unchecked exception:
+ Exception分两种，checked和unchecked。checked Exception就是在写代码的时候，IDE(比如Eclipse)会要求你写try catch的那种Exception，
+ 比如IOException。这种Exception是Java的设计者要求你的程序去处理的。这种异常一般不会影响程序的主体，容易手动诊断修复，
+ 所以Java要求你在catch下面写出处理的代码，以保证程序遇到此类exception之后还可以正常运行。unchecked这一类就是你在代码处理了
+ checked exception之后，你在运行时候依然会遇到的exception，所以又叫做RunTimeException，比如NullPointerException,
+ IndexOutOfBoundsException。此类exception相较于前面那种更容易影响程序运行，从设计者角度不提倡从程序中catch出来并处理，当然你也可以这么做。
 
+ ArrayList 底层实现
+ http://zhangshixi.iteye.com/blog/674856
 
+ VM和container的区别
+ https://www.itworld.com/article/2915530/virtualization/containers-vs-virtual-machines-how-to-tell-which-is-the-right-choice-for-your-enterprise.html
+ http://www.chinacloud.cn/show.aspx?id=22040&cid=17
 
-
-
-给一堆jobid, implement两个function:void expire(long id), bool isExpired(long id)。如果job id 超多，
-如何用16MB的memory纪录expired 的id。
-http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=182049&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D26%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311
+ HashTable, 然后问了实现方式，以及不同实现方式的差别，实用范围
