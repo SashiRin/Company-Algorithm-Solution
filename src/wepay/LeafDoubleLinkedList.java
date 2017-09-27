@@ -48,7 +48,7 @@ public class LeafDoubleLinkedList {
         while (!lt.isEmpty()) {
                 TreeNode node = lt.pop();
                 if (node.right!=null) lt.push(node.right);
-                if (node.left!=null) lt.push(node.left);                . 鐣欏鐢宠璁哄潧-涓€浜╀笁鍒嗗湴
+                if (node.left!=null) lt.push(node.left);
                 if ((node.left==null)&&(node.right==null)) {
                         if (pre!=null) {
                                 pre.right = node;. from: 1point3acres.com/bbs
@@ -56,6 +56,6 @@ public class LeafDoubleLinkedList {
                         }
                         pre = node;
                 }
-        }. from: 1point3
+        }
      */
 }
